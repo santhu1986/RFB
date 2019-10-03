@@ -1,0 +1,26 @@
+package scripts;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.server.browserlaunchers.Sleeper;
+
+public class Gmail 
+{
+	
+	public static void main(String[] args) throws InterruptedException 
+	{
+           WebDriver driver=new FirefoxDriver();
+           driver.get("http://www.gmail.com");
+           driver.manage().window().maximize();
+           driver.findElement(By.id("Email")).sendKeys("testmindq");
+           driver.findElement(By.id("next")).click();
+          Sleeper.sleepTightInSeconds(4);
+           driver.findElement(By.xpath(".//*[@id='Passwd']")).sendKeys("testingmindq");
+           driver.findElement(By.cssSelector("#signIn")).click();
+           
+           
+           
+	}
+
+}

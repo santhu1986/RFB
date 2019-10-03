@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Gdft.java&apos; to &apos;selenium/src/Scripts&apos;&#x0D;&#x0A;- Original project: &apos;selenium&apos;&#x0D;&#x0A;- Destination element: &apos;selenium/src/Scripts&apos;&#x0D;&#x0A;- Original element: &apos;Gdft.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;Scripts" element1="/src&lt;{Gdft.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1495794598328" units="1" version="1.0"/>
+</session>
